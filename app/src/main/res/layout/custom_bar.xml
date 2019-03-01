@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/customBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:divider="?android:attr/dividerVertical"
+    android:showDividers="end"
+    android:dividerPadding="12dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include
+        layout="@layout/include_done_button">
+    </include>
+</LinearLayout>
